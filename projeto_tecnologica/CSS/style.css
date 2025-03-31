@@ -1,0 +1,131 @@
+/*
+****** LINHA FORMATAÇÃO ******
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+****** FORMATAÇÃO GENÉRICA ******
+*/
+
+body{
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c4c4c4;
+}
+h1{
+    color: #252525;
+    font-size: 40px;
+}
+h2{
+    color: blue;
+
+}
+h3{
+    color: #565656;
+}
+
+
+
+
+/*
+****** LINHA CABEÇALHO ******
+*/
+#header{
+    background-color: blue;
+    padding: 15px;
+    text-align: center;
+}
+
+#Logo, #menu{
+    padding: 10px;
+}
+
+#header a:link, #header a:visited{
+    color: white;
+    padding: 8px 12px;
+}
+
+#header a:hover{
+    color: blue;
+    background: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.white{
+    color: white;
+}
+
+#content{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#posts{
+    width: 660px;
+    float: left;
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    text-align: justify;
+}
+.data-post{
+    font-size: 13px;
+    border-bottom: 1px solid blue;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+.img-post{
+    width:620px;
+
+}
+
+#right-side{
+    width: 240px;
+    float: right;
+}
+
+.content-right{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.post_right{
+    font-size: 13px;
+    padding: 5px;
+    border-bottom: 1px dotted white;
+}
+
+
+
+
+
+a:Link, a:visited{
+    color: blue;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: white;
+    color: blue;
+}
